@@ -113,7 +113,7 @@ div.video{
     padding: 20px;
     padding-bottom: 58%;
     position: relative;
-
+    border-radius: 0px 0px 10px 10px ;
 
 }
 
@@ -121,8 +121,11 @@ div.video > iframe{
     position: absolute;
     top: 5% ;
     left: 5%;
+    right: 5%;
+    bottom: 5%;
     width: 90% ;
-    height:90% ;
+    height: 90% ;
+    border-radius: 10px;
 }
 
 
@@ -157,6 +160,7 @@ main a:hover{
 
 main img{
     width: 100%;
+    
 }
 
 
@@ -214,21 +218,22 @@ aside > h3{
 
 footer{
     background-color: var(--cor5);
-    color: cor;
+    color: white;
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
 }
 
 footer > p > a {
-    color: white;
+    color: var(--cor1);
     text-decoration: none;
     font-weight: bold;
+
 }
 
 footer a:hover{
-    color: white;
-    padding: 10px;
+    color: var(--cor3);
+    
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
