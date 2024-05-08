@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+
+
+h1{
+    color: #D9965B;
+}
+#main{
+    text-align: center;
+    background-color: #D9965B;
+    color: black;
+}
+.basico{
+    color: #A68877;
+}
+.intermediario{
+    color: #D9965B;
+}
+.avançado{
+    color: #73321A;
+}
+p{
+    font-style: italic;
+}
